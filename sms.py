@@ -822,6 +822,7 @@ r='\033[1;31m'
 g='\033[32;1m' 
 y='\033[1;33m'
 w='\033[1;37m'
+print(text2art("sms bomber"))
 printLow(f' {g}[+] lmwdi\n {g}[+] lets go\n\n')
 def Vip(phone, Time):
     Thread(target=snap, args=[phone]).start(), sleep(Time)
